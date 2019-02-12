@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Leaflet Exercise</title>
+	<title>Leaflet UBC</title>
 	<meta charset="utf-8" />
 
 	<!-- Leaflet styles and code. Place in the <head></head> element. -->
@@ -105,15 +105,14 @@
     };
 
     var nameToHighlight = "";
-    // This is set by someone pressing the highlight button.
-    // If it's an empty string, then just draw everything.
+    
 
     function highlightParkings() {
     	nameToHighlight = document
     												.getElementById("highlightParkingsTextEntry")
       											.value;
       addTrees();
-      nameToHighlight = "";  // reset so that "Show All Trees" works.
+      nameToHighlight = "";  
     }
 
 		var parkingGeoJSONdata;
