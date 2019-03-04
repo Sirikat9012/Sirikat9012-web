@@ -1,4 +1,8 @@
-###Reflective Analysis
+## 2018 Homicide Cases in Toronto
+
+
+
+### Reflective Analysis
 1. Purpose of the map
 The map is aimed to provide an intuitive visual effect on discerning the spatial pattern of 2018 homicide cases in Toronto. Looking at the map, I hope the common mass could be aware of how many attacks had happened in this city. (here is a link for victims in detail: https://toronto.ctvnews.ca/toronto-s-most-deadly-year-a-look-at-the-96-homicide-victims-of-2018-1.4232568)
 
