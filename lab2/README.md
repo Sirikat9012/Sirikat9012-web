@@ -1,8 +1,8 @@
 ## 2018 Homicide Cases in Toronto
 
-![alt text]https://github.com/Sirikat9012/Sirikat9012-web/blob/master/lab2/Figure.%202018%20Homicide%20cases%20in%20Toronto.png
+![alt text](https://github.com/Sirikat9012/Sirikat9012-web/blob/master/lab2/Figure.%202018%20Homicide%20cases%20in%20Toronto.png)
 
-### maplink
+### Maplink
 https://sirikat9012.github.io/Sirikat9012-web/lab2/index.html
 
 ### Collaboration and reliance on other resources
