@@ -1,6 +1,9 @@
 ## 2018 Homicide Cases in Toronto
 
+### Collaboration and reliance on other resources
+Library Source: Turf.js & Mapbox.js
 
+During the process of making a map, I talked with several classmates about the lab idea, the coding operation and the applications of various javascript libraries. We shared exciting samples and websites of the interactive map and discussed the feasibility and difficulty. During the collaboration, we found the mapbox.js and mapbox.gl.js cannot work toge
 
 ### Reflective Analysis
 1. Purpose of the map
