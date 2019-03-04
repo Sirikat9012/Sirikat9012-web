@@ -7,7 +7,7 @@ https://sirikat9012.github.io/Sirikat9012-web/lab2/index.html
 
 ### Reflective Analysis
 #### Purpose of the map
-The map is aimed to provide an intuitive visual effect on discerning the spatial pattern of 2018 homicide cases in Toronto. Looking at the map, I hope the common mass could be aware of how many attacks had happened in this city. (here is a link for victims in detail: https://toronto.ctvnews.ca/toronto-s-most-deadly-year-a-look-at-the-96-homicide-victims-of-2018-1.4232568)
+The map is aimed to provide an intuitive visual effect on discerning the spatial pattern of 2018 homicide cases in Toronto. Looking at the map, I hope the common mass could be aware of how many attacks had happened in this city. (here is a link for victims in detail: https://toronto.ctvnews.ca/toronto-s-most-deadly-year-a-look-at-the-96-homicide-victims-of-2018-1.4232568
 
 #### Choices of data &  cartographic stylings
 The black skull marker was used to indicate homicide cases, symboling the loss of life. The shade under each skull marker is different. Deeper color of the shadow noted a heavier fatality in one accident. The most deadly attack occurred in North York on April 22, causing the in total deaths of 10 people. For the background layer, I chose the classic light Mapbox layer and hoped it was solemn. Red was to display the hexagon since it symbols blood, and the color opacity increased with the number of homicide cases within the hexagon. 
