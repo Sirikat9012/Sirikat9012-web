@@ -1,0 +1,131 @@
+<html><head>
+    <title>deck.gl GeoJsonLayer (Polygon) Example</title>
+
+    <script src="deckgl.min.js"></script>
+
+    <script src="mapbox-gl.js"></script>
+
+    <style type="text/css">
+      body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+      }
+      #tooltip:empty {
+        display: none;
+      }
+      #tooltip {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 11px;
+        position: absolute;
+        padding: 4px;
+        margin: 8px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        max-width: 300px;
+        font-size: 10px;
+        z-index: 9;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="tooltip"></div>
+  
+
+  <script type="text/javascript">
+
+    const {DeckGL, GeoJsonLayer} = deck;
+
+    const LIGHT_SETTINGS = {
+      lightsPosition: [-125, 50.5, 5000, -122.8, 48.5, 8000],
+      ambientRatio: 0.2,
+      diffuseRatio: 0.5,
+      specularRatio: 0.3,
+      lightsStrength: [2.0, 0.0, 1.0, 0.0],
+      numberOfLights: 2
+    };
+
+    const COLOR_SCALE = [
+
+      [33,102,172],
+      [67,147,195],
+      [146,197,222],
+      [133, 180, 202],
+      [175, 215, 231],
+      [239, 197, 124],
+      [244,165,130],
+      [211, 124, 109],
+      [214, 96, 77],
+      [185, 45, 62],
+      [162, 22, 40],
+      [114, 16, 28],
+      [0, 0, 0] // for null data
+    ];
+     
+    
+
+    const geojsonLayer = new GeoJsonLayer({
+      data: 'https://raw.githubusercontent.com/UBCGeodata/ubcv-buildings/master/geojson/ubcv_building_records.geojson',
+      opacity: 0.8,
+      stroked: false,
+      filled: true,
+      extruded: true,
+      wireframe: true,
+      fp64: true,
+      lightSettings: LIGHT_SETTINGS,
+
+      getElevation: f => Math.sqrt(f.properties.COUNT_FLOORS) * 5,
+      
+      //older buildings will havr a larger x
+      getFillColor: f => colorScale(20190000 - Number(f.properties.DATE_BUILT)),
+      
+      
+      getLineColor: [255, 255, 255],
+      
+      pickable: true,
+      onHover: updateTooltip
+    });
+
+    new DeckGL({
+      mapboxApiAccessToken: 'pk.eyJ1Ijoic2lyaWthdDkwMTIiLCJhIjoiY2pzbzhwcHo1MDIyeDN5cWs1NWZ3dmhqdiJ9.1Nprp7O1CUk7Kg4Qtd_u2g',
+      mapStyle: 'mapbox://styles/mapbox/light-v9',
+      latitude: 49.2606,
+      longitude: -123.2460,
+      zoom: 13.5,
+      maxZoom: 16,
+      pitch: 45,
+      layers: [geojsonLayer]
+    });
+
+  
+    
+    function colorScale(x) {
+      const i = Math.round(x/100000); // the round (x/100000) is to set  the range of i within the color_scale's length 
+      if (x > 0) {
+        return COLOR_SCALE[i] || COLOR_SCALE[COLOR_SCALE.length - 1];
+      } //older buildings will get a larger value of i 
+    }
+
+    function updateTooltip({x, y, object}) {
+      const tooltip = document.getElementById('tooltip');
+
+      if (object) {
+        tooltip.style.top = `${y}px`;
+        tooltip.style.left = `${x}px`;
+        tooltip.innerHTML = `
+    <div><b>NAME;</b></div>
+    <div><div>${object.properties.NAME}</sup></div></div>
+    <div><b>COUNT_FLOORS</b></div>
+    <div>${Math.round(object.properties.COUNT_FLOORS)}</div>
+<div><b>DATE_BUILT</b></div>
+    <div><div>${object.properties.DATE_BUILT}</sup></div></div>
+    `;
+      } else { 
+        tooltip.innerHTML = '';
+      }
+    }
+
+  </script>
+</body></html>
