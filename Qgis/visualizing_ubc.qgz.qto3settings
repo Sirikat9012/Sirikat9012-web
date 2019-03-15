@@ -1,0 +1,141 @@
+{
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "ubcv_building_records_e5983556_dcce_4d01_8905_4c70a79f73a7",
+      "name": "ubcv_building_records",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Extruded",
+        "comboBox_altitudeMode": "vancouver_area_dem_43861962_8c91_4daa_8da1_412278a81fd4",
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "5* \"COUNT_FLOORS\" ",
+          "type": 1
+        },
+        "styleWidget3": {
+          "comboData": 0,
+          "comboText": "(No border)",
+          "editText": "",
+          "type": 7
+        },
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 1,
+      "layerId": "ubcv_trees_c26b3041_fa3b_426b_bdfa_b3c612ee747b",
+      "name": "ubcv_trees",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": "vancouver_area_dem_43861962_8c91_4daa_8da1_412278a81fd4",
+        "fieldExpressionWidget_altitude": "4",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "3",
+          "type": 1
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "vancouver_area_dem_43861962_8c91_4daa_8da1_412278a81fd4",
+      "name": "vancouver-area-dem",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "ubcv_building_records_e5983556_dcce_4d01_8905_4c70a79f73a7",
+        "comboBox_TextureSize": 400,
+        "horizontalSlider_DEMSize": 2,
+        "layerImageIds": [
+          "UBC_2018_1m_geotiff_UTM10N_0ea5a3c1_29ae_4798_9475_65414b43ed01"
+        ],
+        "lineEdit_ImageFile": "",
+        "radioButton_LayerImage": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": null,
+      "visible": false
+    }
+  ],
+  "OutputFilename": "C:/temp/Qgis\\index.html",
+  "SCENE": {
+    "checkBox_autoZShift": false,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_zFactor": "1.5",
+    "lineEdit_zShift": "0"
+  },
+  "Template": "3DViewer(dat-gui).html"
+}
