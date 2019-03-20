@@ -1,0 +1,1687 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#36 - Kingdom of Egrigaia",
+        "stop": 36
+      },
+      "geometry": {
+        "coordinates": [
+          106.281738,
+          38.582526,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "03340c5f06bd1a5dfb6bfb51b77465e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#54 - Hejian",
+        "stop": 54
+      },
+      "geometry": {
+        "coordinates": [
+          116.087036,
+          38.440682
+        ],
+        "type": "Point"
+      },
+      "id": "048ab557bdd3013ab5c0b883bd70fce6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R7 - Kingdom of Basma",
+        "stop": 79
+      },
+      "geometry": {
+        "coordinates": [
+          102.392578,
+          2.284551,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "07d1d38cd3e8c3760a33669bff7da81b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#57 - Jining",
+        "stop": 57
+      },
+      "geometry": {
+        "coordinates": [
+          116.573181,
+          35.424867
+        ],
+        "type": "Point"
+      },
+      "id": "08d144b1ec9583dca60415e5d3a584bc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#39 - Zhuozhou",
+        "stop": 39
+      },
+      "geometry": {
+        "coordinates": [
+          115.968414,
+          39.483298
+        ],
+        "type": "Point"
+      },
+      "id": "0f9cbbe5fb3601910eb2d6b5d48585b7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#62 - TaiZhou",
+        "stop": 62
+      },
+      "geometry": {
+        "coordinates": [
+          119.899291,
+          32.46806
+        ],
+        "type": "Point"
+      },
+      "id": "126e366aa9df554c13b503b5e00d58af"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R4 - Isles of Sondur and Condur",
+        "stop": 76
+      },
+      "geometry": {
+        "coordinates": [
+          106.609444,
+          8.693056,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "14b667eeefaa4f014dca095fc68a5476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#10 -Yazd, Iran",
+        "stop": 10
+      },
+      "geometry": {
+        "coordinates": [
+          54.36068,
+          31.89661,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "155f58994e25ab337bfe72f590f8b528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#42 - Linfen",
+        "stop": 42
+      },
+      "geometry": {
+        "coordinates": [
+          111.460589,
+          36.102383
+        ],
+        "type": "Point"
+      },
+      "id": "196b9744ba76627abd5b22896a38faab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R2- Kublai Kahn's lost fleet.",
+        "stop": 74
+      },
+      "geometry": {
+        "coordinates": [
+          107.897458,
+          16.360045,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "19bc5fb669399d7e730cd4bd8b49fb39"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#61 - Gaoyou",
+        "stop": 61
+      },
+      "geometry": {
+        "coordinates": [
+          119.430999,
+          32.784965
+        ],
+        "type": "Point"
+      },
+      "id": "1b65cf731def98e2b02a79aacc1cf1ca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#16 - Sapurgan (Sheberghan), Afghanistan",
+        "stop": 16
+      },
+      "geometry": {
+        "coordinates": [
+          65.7448,
+          36.6661,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "232f06a0d9ea67eea9718ed969422923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#58 - Zaozhuang",
+        "stop": 58
+      },
+      "geometry": {
+        "coordinates": [
+          117.548217,
+          34.849875
+        ],
+        "type": "Point"
+      },
+      "id": "284602f2b68aa2e908500ceeb4b4a736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#50 - Ha Long",
+        "stop": 50
+      },
+      "geometry": {
+        "coordinates": [
+          107.081336,
+          20.950538
+        ],
+        "type": "Point"
+      },
+      "id": "2f7cc714fce5dd6b9df158dcefaaba1f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#6 - Mosul, Iraq",
+        "stop": 6
+      },
+      "geometry": {
+        "coordinates": [
+          43.130221,
+          36.344616,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "30009327122f4092992a23c9af5cc6bf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R26 - Island of Madeigascar",
+        "stop": 98
+      },
+      "geometry": {
+        "coordinates": [
+          47.460938,
+          -19.973349,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "32108d3e934ab8fc01d1cc76973d82b4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#38 - Beijing",
+        "stop": 38
+      },
+      "geometry": {
+        "coordinates": [
+          116.39054,
+          39.907609
+        ],
+        "type": "Point"
+      },
+      "id": "3fad0f9371a6dbdc27d8eab8307e5d9a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#32 - Campichu (Kanchow), China",
+        "stop": 32
+      },
+      "geometry": {
+        "coordinates": [
+          100.451161,
+          38.933591,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "429f8671c6fbfcd00a025e8bff6bc234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#70 - Fuzhou",
+        "stop": 70
+      },
+      "geometry": {
+        "coordinates": [
+          119.303283,
+          26.066652
+        ],
+        "type": "Point"
+      },
+      "id": "45f3ce79c0652a08b2a3704a0e76030e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#35 - Province of Sinju",
+        "stop": 35
+      },
+      "geometry": {
+        "coordinates": [
+          102.436523,
+          38.048091,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "4630e6d45ccb9d77b779527782586f3e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#56 - Jinan",
+        "stop": 56
+      },
+      "geometry": {
+        "coordinates": [
+          117.03186,
+          36.664012
+        ],
+        "type": "Point"
+      },
+      "id": "4635e18601fe44b751b85d3a21114c84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#68 - Suzhou",
+        "stop": 68
+      },
+      "geometry": {
+        "coordinates": [
+          119.965209,
+          31.806393
+        ],
+        "type": "Point"
+      },
+      "id": "475239ca5c964b7d9f81d12f756a944f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#48 - Baoshan",
+        "stop": 48
+      },
+      "geometry": {
+        "coordinates": [
+          99.179077,
+          25.10301
+        ],
+        "type": "Point"
+      },
+      "id": "4dc00eced767326b30febc3bca16eb4b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#51 - Yuanjiang",
+        "stop": 51
+      },
+      "geometry": {
+        "coordinates": [
+          101.99707,
+          23.591677
+        ],
+        "type": "Point"
+      },
+      "id": "4fef12fc8481c68400ef32143a45eff0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#67 - Zhenjiang",
+        "stop": 67
+      },
+      "geometry": {
+        "coordinates": [
+          119.452972,
+          32.206991
+        ],
+        "type": "Point"
+      },
+      "id": "510c39771ebc2d5b275555684bf1245a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R31A - Ruins of Qal'at al-Bahrain",
+        "stop": 103
+      },
+      "geometry": {
+        "coordinates": [
+          50.519943,
+          26.233446,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "52ac51e3687ea6219f3716ab4ef68046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#47 - Lijiang",
+        "stop": 47
+      },
+      "geometry": {
+        "coordinates": [
+          100.217285,
+          26.87308
+        ],
+        "type": "Point"
+      },
+      "id": "541e66ef8af6c5c98d534d32fc1bd8b1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#20 - Province of Pascia",
+        "stop": 20
+      },
+      "geometry": {
+        "coordinates": [
+          70.2,
+          34.66,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "54f4c25b8abdb15e36986166e99f042f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R9 - Gauenispola",
+        "stop": 81
+      },
+      "geometry": {
+        "coordinates": [
+          95.075684,
+          5.736243,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5537acc38402b5c4ef1305396a84b81c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R1 - Kublai Kahn's lost fleet.",
+        "stop": 73
+      },
+      "geometry": {
+        "coordinates": [
+          129.772394,
+          33.427751,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "57f0cb286a1a18432d023ef618b1c7fd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#11 - Kermān, Iran",
+        "stop": 11
+      },
+      "geometry": {
+        "coordinates": [
+          57.06702,
+          30.28027,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5a10a8ac7beed0241b10cf901d5b2696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#13 - Detour",
+        "stop": 13
+      },
+      "geometry": {
+        "coordinates": [
+          58.798828,
+          30.107118,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5b3aaeba925dbe7c979de004371f2a06"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#8 - Tabriz, Iran",
+        "stop": 8
+      },
+      "geometry": {
+        "coordinates": [
+          46.355581,
+          38.0663,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5ddf9cc4b3c11046b5d9b13f2e9c5f5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#14 - Kobiam (Kuhbanan), Iran",
+        "stop": 14
+      },
+      "geometry": {
+        "coordinates": [
+          56.333333,
+          31.45,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "61a5dbccc60e27a79abc4867d84022de"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#26 - Province of Peyn",
+        "stop": 26
+      },
+      "geometry": {
+        "coordinates": [
+          82.776489,
+          37.099003,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "63c5fd5860f742a3f994476043c66a36"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#24 - Karkan (Yarkant), China",
+        "stop": 24
+      },
+      "geometry": {
+        "coordinates": [
+          77.266095,
+          38.415602,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "6706e85ed3782c8ed728161cd3df86c8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#45 - Chengdu",
+        "stop": 45
+      },
+      "geometry": {
+        "coordinates": [
+          104.065246,
+          30.663903
+        ],
+        "type": "Point"
+      },
+      "id": "6952e6d48e879faf69e0bbd702cb8701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#21 - Kashmir, India",
+        "stop": 21
+      },
+      "geometry": {
+        "coordinates": [
+          76.825965,
+          34.149088,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "69909b87492ca679d33f267df1ae5501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#69 - Hangzhou",
+        "stop": 69
+      },
+      "geometry": {
+        "coordinates": [
+          120.605163,
+          31.304368
+        ],
+        "type": "Point"
+      },
+      "id": "6ccb594e0f0c38e954e005cf046b5f53"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#3 - Erzincan, Turkey",
+        "stop": 3
+      },
+      "geometry": {
+        "coordinates": [
+          39.504501,
+          39.739929,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "7309cbf8fa0f687636d414f8f413d7dd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R19 - Kingdom Eli",
+        "stop": 91
+      },
+      "geometry": {
+        "coordinates": [
+          75.262682,
+          12.017883,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "75a0a6b872056d83f99a389279457d9a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#65 - Xiangyang",
+        "stop": 65
+      },
+      "geometry": {
+        "coordinates": [
+          112.122344,
+          32.04766
+        ],
+        "type": "Point"
+      },
+      "id": "7ab9fa27a390443598d429fe4d61320f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R27 - Island of Zanghibar",
+        "stop": 99
+      },
+      "geometry": {
+        "coordinates": [
+          39.342041,
+          -6.09686,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "7ae7af8d2d0ef21ebc8cbd875543120c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#46 - \bTibet",
+        "stop": 46
+      },
+      "geometry": {
+        "coordinates": [
+          88.882141,
+          29.267232
+        ],
+        "type": "Point"
+      },
+      "id": "7c69c7d13639d08090a6f788f0f2437e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#72 - Quanzhou",
+        "stop": 72
+      },
+      "geometry": {
+        "coordinates": [
+          118.561706,
+          24.886436
+        ],
+        "type": "Point"
+      },
+      "id": "7d3b0cc8b47d6b6dad766de75e2446bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#52 - Daguan",
+        "stop": 52
+      },
+      "geometry": {
+        "coordinates": [
+          103.858222,
+          27.813875
+        ],
+        "type": "Point"
+      },
+      "id": "7e0bf50ac7bec9fef46e07d156ee7e64"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R13 - Province of Maabar",
+        "stop": 85
+      },
+      "geometry": {
+        "coordinates": [
+          78.793945,
+          9.622414,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "7e607ea912337a24d2fae1b79fdcd829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R10 - Island of Necuveran",
+        "stop": 82
+      },
+      "geometry": {
+        "coordinates": [
+          93.834229,
+          6.970049,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "803ff47ffef57a7c92d38ed7656a0ff9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#1 - Layas",
+        "stop": 1
+      },
+      "geometry": {
+        "coordinates": [
+          36.19729,
+          36.733863,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "852cc93ab6ef074bdca0c3c8cc05f959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R16 - City of Cail",
+        "stop": 88
+      },
+      "geometry": {
+        "coordinates": [
+          78.12,
+          8.57,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "8b9b3d5039d54e781a6aa34e49aad00e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#27 - Province of Chingintalas",
+        "stop": 27
+      },
+      "geometry": {
+        "coordinates": [
+          86.958847,
+          38.879809,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "8cdfb6318039f7c8a7a917f7d8af0daf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#12 - Hormuz",
+        "stop": 12
+      },
+      "geometry": {
+        "coordinates": [
+          56.452419,
+          27.09342,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "93246502d19993b31ab37d2599d70fd7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#28 - City of Lop",
+        "stop": 28
+      },
+      "geometry": {
+        "coordinates": [
+          90.395508,
+          40.178873,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "965092638a8b11992e9eedef76a02597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R31 - Gulf of Calatu, and the City So Called",
+        "styleUrl": "#icon-959-009D57",
+        "styleHash": "7e9ddb0c",
+        "icon": "http://climateviewer.org/img/icons/orange-blank.png",
+        "description": "Read Chapter 39, Book 3. (http://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_3/Chapter_39)\n\n“Calatu is a great city, within a gulf which bears the name of the Gulf of Calatu. It is a noble city, and lies 600 miles from Dufar towards the north-west, upon the sea-shore.”"
+      },
+      "geometry": {
+        "coordinates": [
+          50.520556,
+          26.233611,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "970f39911e2bca50cb9da034a1e6ee61"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#44 - Xi'an",
+        "stop": 44
+      },
+      "geometry": {
+        "coordinates": [
+          108.937683,
+          34.259486
+        ],
+        "type": "Point"
+      },
+      "id": "9ae4eac5dec8b214313aff97735e2156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#43 - Heyang",
+        "stop": 43
+      },
+      "geometry": {
+        "coordinates": [
+          110.079668,
+          35.211876
+        ],
+        "type": "Point"
+      },
+      "id": "9cec91f5b84632a4abcbaf13ee982235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#63 - Yangzhou",
+        "stop": 63
+      },
+      "geometry": {
+        "coordinates": [
+          119.424819,
+          32.397936
+        ],
+        "type": "Point"
+      },
+      "id": "9d20fc2f7c2f1f57a92cd2102774e0fb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R14 - Kingdom of Mutfili",
+        "stop": 86
+      },
+      "geometry": {
+        "coordinates": [
+          78.706055,
+          16.88866,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "9d376aca09fd0ef132532dbc2845afd0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R15 - Province of Lar",
+        "stop": 87
+      },
+      "geometry": {
+        "coordinates": [
+          74.080811,
+          32.576906,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a0155aded2fe5d6f6b18cffef33cbfa7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#9 - Saveh, Iran",
+        "stop": 9
+      },
+      "geometry": {
+        "coordinates": [
+          50.350559,
+          35.01696,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a57419eab4cf4420eebaf2df1273373c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#29 - Province of Tangut",
+        "stop": 29
+      },
+      "geometry": {
+        "coordinates": [
+          94.361572,
+          40.14109,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a8764475d5a57263b964b547e92327bf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R6 - Kingdom of Ferlec",
+        "stop": 78
+      },
+      "geometry": {
+        "coordinates": [
+          103.820801,
+          1.45004,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "aa38eab053e1cb7c79180054400dfc69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R32 - Return to the City of Hormos",
+        "stop": 104
+      },
+      "geometry": {
+        "coordinates": [
+          56.074219,
+          27.196014,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "aaeeab3c7023a1abc4650e8f3f2202d5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#34 - City of Caracoron (Kharkhorin), Mongolia",
+        "stop": 34
+      },
+      "geometry": {
+        "coordinates": [
+          102.841988,
+          47.201246,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ab55176b5b8189c657b7575d2aad525d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R30 - City of Dufar",
+        "stop": 102
+      },
+      "geometry": {
+        "coordinates": [
+          39.188232,
+          21.539957,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ab90a49d68c7cbd6572a88a19d34714d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#37 - Shangdu",
+        "stop": 37
+      },
+      "geometry": {
+        "coordinates": [
+          113.016357,
+          40.478292,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "aca77fff497e62200cdb27323470e3a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#33 - Ruins at Black City (Heicheng) (Khara-Khoto)",
+        "stop": 33
+      },
+      "geometry": {
+        "coordinates": [
+          101.144171,
+          41.765486,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ae213ec2e5474a9b8596200e81c2073c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R8 - Kingdom of Samara",
+        "stop": 80
+      },
+      "geometry": {
+        "coordinates": [
+          97.130127,
+          5.080001,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b2fcb3d10a84dce3fc89cf279b123c7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#49 - Bagan",
+        "stop": 49
+      },
+      "geometry": {
+        "coordinates": [
+          94.86145,
+          21.171606
+        ],
+        "type": "Point"
+      },
+      "id": "b56a661fb83e6b78d86c11ab06fe03c3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R20 - Kingdom of Gozurat",
+        "stop": 92
+      },
+      "geometry": {
+        "coordinates": [
+          72.850342,
+          18.989415,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "bafbf2f5151d497ff3d63fd2a4c12fc1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#60 - Huai'an",
+        "stop": 60
+      },
+      "geometry": {
+        "coordinates": [
+          119.020385,
+          33.594031
+        ],
+        "type": "Point"
+      },
+      "id": "bcdff254cc633f5b764a4f35bbf070bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#55 - Linqin",
+        "stop": 55
+      },
+      "geometry": {
+        "coordinates": [
+          115.708007,
+          36.843361
+        ],
+        "type": "Point"
+      },
+      "id": "bdb78dcdee0e7109a57bda31d5a2a141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#59 - Suqian",
+        "stop": 59
+      },
+      "geometry": {
+        "coordinates": [
+          118.287048,
+          33.943359
+        ],
+        "type": "Point"
+      },
+      "id": "bf1fa7ab30d879f2054635356fac5b17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R25 - Island of Scotra",
+        "stop": 97
+      },
+      "geometry": {
+        "coordinates": [
+          53.833007,
+          12.522391,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "c198f3a563e32ab485722a28218fa3de"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": " #66 - Jiujiang",
+        "stop": 66
+      },
+      "geometry": {
+        "coordinates": [
+          115.975799,
+          29.696403
+        ],
+        "type": "Point"
+      },
+      "id": "c48ed36d3417bce428f4961f34bcbee6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#19 - Balashan (Badakhshan), Afghanistan",
+        "stop": 19
+      },
+      "geometry": {
+        "coordinates": [
+          70.811995,
+          36.734772,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "c791036147fc88ed1fc7fca1bd031387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#22 - Pamirs, Tajikistan",
+        "stop": 22
+      },
+      "geometry": {
+        "coordinates": [
+          73,
+          38,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "c98cebcd8b86fbfdeed68a9aca2fb7f5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R17 - Kingdom of Coilum",
+        "stop": 89
+      },
+      "geometry": {
+        "coordinates": [
+          76.591187,
+          8.895926,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ca9333c511c2fa4f1adc4edea23530fb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#2 - Sivas, Turkey",
+        "stop": 2
+      },
+      "geometry": {
+        "coordinates": [
+          37.017879,
+          39.747662,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ced143ed67450472b4f37cbc2e246073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R22 - Kingdom of Cambaet",
+        "stop": 94
+      },
+      "geometry": {
+        "coordinates": [
+          72.585297,
+          22.294179,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d023ae67ddf5dc084c7bcc1e29b0c364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R3 - Java",
+        "stop": 75
+      },
+      "geometry": {
+        "coordinates": [
+          107.182617,
+          -6.751896,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d23fd7ab1e852a95611bc5486b5c7b83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#64 - Nanjing",
+        "stop": 64
+      },
+      "geometry": {
+        "coordinates": [
+          118.729248,
+          32.040675
+        ],
+        "type": "Point"
+      },
+      "id": "d265a87eb0df96aadbd4334d78859982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#31 - Province of Chingintalas",
+        "stop": 31
+      },
+      "geometry": {
+        "coordinates": [
+          89.186926,
+          42.938014,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d47381a0d49a0b7b31ac33d0614d6525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R11 - Island of Angamanain",
+        "stop": 83
+      },
+      "geometry": {
+        "coordinates": [
+          92.702637,
+          11.673755,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d56fdd65cb0ab945664dabdef0a4c3c4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#23 - Kaxgar (Kashgar), China",
+        "stop": 23
+      },
+      "geometry": {
+        "coordinates": [
+          76.036377,
+          39.436193,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d61ac49aa88fb23c85fd9ff7c8da1ac6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R12 - Island of Seilan",
+        "stop": 84
+      },
+      "geometry": {
+        "coordinates": [
+          81.188965,
+          7.514981,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d87194b5dffb40ff6711c98c66ebbd43"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#7 - Baghdad, Iraq",
+        "stop": 7
+      },
+      "geometry": {
+        "coordinates": [
+          44.3922,
+          33.3157,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "dc67c104d5eb9a861044e5b253ee95c1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#40 - Taiyuan",
+        "stop": 40
+      },
+      "geometry": {
+        "coordinates": [
+          112.556139,
+          37.856478
+        ],
+        "type": "Point"
+      },
+      "id": "de61481f926ffa4a108a1faf6eb2bda8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#25 - Khotan",
+        "stop": 25
+      },
+      "geometry": {
+        "coordinates": [
+          79.953346,
+          37.110229,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e0cbbbc017ae36427228e840e2db4d2b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R5 - Island called Pentam",
+        "stop": 77
+      },
+      "geometry": {
+        "coordinates": [
+          104.500278,
+          1.076667,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e1a255f4b2412da26850a60cfbe9d00e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#5 - Tiflis",
+        "stop": 5
+      },
+      "geometry": {
+        "coordinates": [
+          44.806495,
+          41.691277,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e1c26a4d91fb9b832e3ae420384df0da"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R18 - Country Called Comari",
+        "stop": 90
+      },
+      "geometry": {
+        "coordinates": [
+          77.541,
+          8.077999,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e3b0886e0b3eb0b61df53c0d9f1c4a19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#4 - Mt. Ararat, Turkey",
+        "stop": 4
+      },
+      "geometry": {
+        "coordinates": [
+          44.262543,
+          39.657513,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e4a9fa38a62ecdcfe9c6d22549b9a694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R23 - Kingdom of Semenat",
+        "stop": 95
+      },
+      "geometry": {
+        "coordinates": [
+          70.400391,
+          21.2689,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e56e4e27bc4e144c74826d028b06fd21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#71 - Jianyang",
+        "stop": 71
+      },
+      "geometry": {
+        "coordinates": [
+          118.318634,
+          27.02977
+        ],
+        "type": "Point"
+      },
+      "id": "e6a24ecda234d6534d3b63652de6c67a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R28 - Province of Abash",
+        "stop": 100
+      },
+      "geometry": {
+        "coordinates": [
+          45.033333,
+          12.8,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e7f95aa8b74a48c14fe450d445eed527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#30 - Hami (Kumul), China",
+        "stop": 30
+      },
+      "geometry": {
+        "coordinates": [
+          93.490906,
+          42.843248,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "eae377c9d49b86075401c11726052ed8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#15 - Mulehet (Alamut)",
+        "stop": 15
+      },
+      "geometry": {
+        "coordinates": [
+          50.586274,
+          36.444459,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ec504788af0e1b69e78004fa855affdd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#53 - Yibin",
+        "stop": 53
+      },
+      "geometry": {
+        "coordinates": [
+          104.625549,
+          28.762241
+        ],
+        "type": "Point"
+      },
+      "id": "ed19627f67974b179a3ea677b9f4bd7e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#18 - Talikan",
+        "stop": 18
+      },
+      "geometry": {
+        "coordinates": [
+          68.715498,
+          36.859931,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f25ed186d5ab72fdba7fb33cb7ef25ca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R29 - City of Esher",
+        "stop": 101
+      },
+      "geometry": {
+        "coordinates": [
+          42.585754,
+          16.883403,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f2f3635294473cdb06f483116116ca80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R21 - Kingdom of Tana",
+        "stop": 93
+      },
+      "geometry": {
+        "coordinates": [
+          72.732239,
+          19.466592,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f3d0c66c42541f5978e9b4483443071e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#33- City of Etzina",
+        "styleUrl": "#icon-959-F4EB37",
+        "styleHash": "-7b6fcf74",
+        "icon": "http://climateviewer.org/img/icons/orange-blank.png",
+        "description": "Read Chapter 45, Book 1. (http://en.wikisource.org/wiki/The_Travels_of_Marco_Polo/Book_1/Chapter_45)  \n\n“When you leave the city of Campichu you ride for twelve days, and then reach a city called ETZINA, which is towards the north on the verge of the Sandy Desert; it belongs to the Province of Tangut.”"
+      },
+      "geometry": {
+        "coordinates": [
+          101.145115,
+          41.766238,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f4ee8a5c607edaf9ed0c6d13a649f0ee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "#0 - Venice",
+        "stop": 0
+      },
+      "geometry": {
+        "coordinates": [
+          12.335373,
+          45.43707
+        ],
+        "type": "Point"
+      },
+      "id": "f5a4e1fb2717028d942366636a84be91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#17 - Balkh, Afghanistan",
+        "stop": 17
+      },
+      "geometry": {
+        "coordinates": [
+          66.899529,
+          36.767698,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f615579422badcc2c57c0ba6175d5a6f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#R24 - Kingdom of Kesmacoran",
+        "stop": 96
+      },
+      "geometry": {
+        "coordinates": [
+          65.830078,
+          31.428663,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f6de19c57cc97356e4d480e6b98e8c6c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "#41 - Datong",
+        "stop": 41
+      },
+      "geometry": {
+        "coordinates": [
+          113.301951,
+          40.10857
+        ],
+        "type": "Point"
+      },
+      "id": "fbabf769f97934dcaab1dbcd802cab26"
+    }
+  ],
+  "type": "FeatureCollection"
+}
