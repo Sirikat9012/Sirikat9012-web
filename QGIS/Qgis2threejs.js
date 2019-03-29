@@ -138,9 +138,9 @@ Q3D.Scene -> THREE.Scene -> THREE.Object3D
 
 --
 custom function
-.loadJSONObject(json_obj):
+.loadJSONObject(json_obj): 
 .toMapCoordinates(x, y, z): converts world coordinates to map coordinates
-._rotatePoint(point, degrees, origin):
+._rotatePoint(point, degrees, origin): 
 */
 Q3D.Scene = function () {
   THREE.Scene.call(this);
