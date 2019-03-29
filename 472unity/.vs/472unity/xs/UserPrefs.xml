@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{79F09E33-02FC-738C-1FDE-4D4FC91701E5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/playerControler.cs">
+    <Files>
+      <File FileName="Assets/flayover.cs" Line="20" Column="1" />
+      <File FileName="Assets/playerControler.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
