@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Animate a point along a route</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<style>
+.overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.overlay button {
+    font:600 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background-color: #3386c0;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.overlay button:hover {
+    background-color:#4ea0da;
+}
+</style>
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js' charset='utf-8'></script>
+
+<div id='map'></div>
+<div class='overlay'>
+    <button id='replay'>Replay</button>
+</div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2lyaWthdDkwMTIiLCJhIjoiY2p0Z2MyMXIzMjIxeTRhb2JuaG5pbWZ4eCJ9.clkv6nycz9hXHrgWL2Ur5w';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/sirikat9012/cjt95wqiw2x841fqn85uq9pet',
+    center: [70, 15],
+    zoom: 2.5,
+    maxZoom: 18,
+    minZoom: 2,
+});
+
+
+map.on('click', function(e) {
+var Features = map.queryRenderedFeatures(e.point,{
+layers: ['marco-point-final']
+
+});
+
+if (!Features.length) {
+return;
+}
+
+var Feature = Features[0];
+
+var popup = new mapboxgl.Popup({ offset: [0, -10] })
+.setLngLat(Feature.geometry.coordinates)
+.setHTML('<p>' + Feature.properties.name + '</p>')
+.setLngLat(Feature.geometry.coordinates)
+.addTo(map);
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// San Francisco
+
+
+// A simple line from origin to destination.
+var route = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+
+[12.335373,45.43707],
+[36.19729,36.733863],
+[37.017879,39.747662],
+[37.017879,39.747662],
+[44.262543,39.657513],
+[44.806495,41.691277],
+[43.130221,36.344616],
+[44.3922,33.3157],
+[46.355581,38.0663],
+[50.350559,35.01696],
+[54.36068,31.89661],
+
+[57.06702,30.28027],
+[56.452419,27.09342],
+[58.798828,30.107118],
+[56.333333,31.45],
+[50.586274,36.444459],
+[65.7448,36.6661],
+[66.899529,36.767698],
+[68.715498,36.859931],
+[70.811995,36.734772],
+[70.2,34.66],
+
+
+[76.825965,34.149088],
+[73,38],
+[76.036377,39.436193],
+[77.266095,38.415602],
+[79.953346,37.110229],
+[82.776489,37.099003],
+[86.958847,38.879809],
+[90.395508,40.178873],
+[94.361572,40.14109],
+
+
+[93.490906,42.843248],
+[89.186926,42.938014],
+[100.451161,38.93359],
+[101.144171,41.765486],
+[102.841988,47.201246],
+[102.436523,38.048091],
+[106.281738,38.582526],
+[113.016357,40.478292],
+[116.39054,39.907609],
+[115.968414,39.483298],
+
+[112.556139,37.856478],
+[113.301951,40.10857],
+[111.460589,36.102383],
+[110.079668,35.211876],
+[108.937683,34.259486],
+[104.065246,30.663903],
+[88.882141,29.267232],
+[100.217285,26.87308],
+[99.179077,25.10301],
+[94.86145,21.171606],
+
+[107.081336,20.950538],
+[101.99707,23.591677],
+[103.858222,27.813875],
+[104.625549,28.762241],
+[116.087036,38.440682],
+[115.708007,36.843361],
+[117.03186,36.664012],
+[116.573181,35.424867],
+[117.548217,34.849875],
+[118.287048,33.943359],
+[119.020385,33.594031],
+[119.430999,32.784965],
+[119.899291,32.46806],
+[119.424819,32.397936],
+[118.729248,32.040675],
+[112.122344,32.04766],
+[115.975799,29.696403],
+[119.452972,32.206991],
+[119.965209,31.806393],
+[120.605163,31.304368],
+
+
+
+[119.303283,26.066652],
+[118.318634,27.02977],
+[118.561706,24.886436],
+[129.772394,33.427751],
+[107.897458,16.360045],
+
+
+[107.182617,-6.751896],
+[106.609444,8.693056],
+[104.500278,1.076667],
+[103.820801,1.45004],
+[106.609444,8.693056],
+[97.130127,5.080001],
+[95.075684,5.736243],
+[93.834229,6.970049],
+[92.702637,11.673755],
+[81.188965,7.514981],
+[78.793945,9.622414],
+[78.706055,16.88866],
+[74.080811,32.576906],
+[78.12,8.57],
+[76.591187,8.895926],
+[77.541,8.077999],
+[75.262682,12.017883],
+[72.850342,18.989415],
+[72.732239,19.466592],
+[72.585297,22.294179],
+[70.400391,21.2689],
+[65.830078,31.428663],
+[53.833007,12.522391],
+[47.460938,-19.973349],
+[39.342041,-6.09686],
+[45.033333,12.8],
+[42.585754,16.883403],
+[39.188232,21.539957],
+[50.519943,26.233446],
+[50.520556,26.233611],
+[12.335373,45.43707],
+
+
+            ]
+        }
+    }]
+};
+
+// A single point that animates along the route.
+// Coordinates are initially set to origin.
+var point = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+            "type": "Point",
+            "coordinates": origin
+        }
+    }]
+};
+
+// Calculate the distance in kilometers between route start/end point.
+var lineDistance = turf.lineDistance(route.features[0], 'kilometers');
+
+var arc = [];
+
+// Number of steps to use in the arc and animation, more steps means
+// a smoother arc and animation, but too many steps will result in a
+// low frame rate
+var steps = 2000;
+
+// Draw an arc between the `origin` & `destination` of the two points
+for (var i = 0; i < lineDistance; i += lineDistance / steps) {
+    var segment = turf.along(route.features[0], i, 'kilometers');
+    arc.push(segment.geometry.coordinates);
+}
+
+// Update the route with calculated arc coordinates
+route.features[0].geometry.coordinates = arc;
+
+// Used to increment the value of the point measurement against the route.
+var counter = 0;
+
+map.on('load', function () {
+    // Add a source and layer displaying a point which will be animated in a circle.
+    map.addSource('route', {
+        "type": "geojson",
+        "data": route
+    });
+
+    map.addSource('point', {
+        "type": "geojson",
+        "data": point
+    });
+
+    map.addLayer({
+        "id": "route",
+        "source": "route",
+        "type": "line",
+        "paint": {
+            "line-width": 3,
+            "line-color": "#f17e7e"
+        }
+    });
+
+    map.addLayer({
+        "id": "point",
+        "source": "point",
+        "type": "symbol",
+        "layout": {
+            "icon-image": "horse-riding-15",
+            "icon-rotate": ["get", "bearing"],
+            "icon-rotation-alignment": "map",
+            "icon-allow-overlap": true,
+            "icon-ignore-placement": true
+        }
+    });
+
+    function animate() {
+        // Update point geometry to a new position based on counter denoting
+        // the index to access the arc.
+        point.features[0].geometry.coordinates = route.features[0].geometry.coordinates[counter];
+
+        // Calculate the bearing to ensure the icon is rotated to match the route arc
+        // The bearing is calculate between the current point and the next point, except
+        // at the end of the arc use the previous point and the current point
+        point.features[0].properties.bearing = turf.bearing(
+            turf.point(route.features[0].geometry.coordinates[counter >= steps ? counter - 1 : counter]),
+            turf.point(route.features[0].geometry.coordinates[counter >= steps ? counter : counter + 1])
+        );
+
+        // Update the source with this new data.
+        map.getSource('point').setData(point);
+
+        // Request the next frame of animation so long the end has not been reached.
+        if (counter < steps) {
+            requestAnimationFrame(animate);
+        }
+
+        counter = counter + 1;
+    }
+
+    document.getElementById('replay').addEventListener('click', function() {
+        // Set the coordinates of the original point back to origin
+        point.features[0].geometry.coordinates = origin;
+
+        // Update the source layer
+        map.getSource('point').setData(point);
+
+        // Reset the counter
+        counter = 0;
+
+        // Restart the animation.
+        animate(counter);
+    });
+
+    // Start the animation.
+    animate(counter);
+});
+</script>
+
+</body>
+</html>

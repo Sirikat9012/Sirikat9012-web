@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+
+<html>
+
+ <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"> </script>
+   <script src="favr40.glitch.me/public/js/sphereexpand.js"></script>
+   <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.0/dist/aframe-extras.min.js"></script>
+   <script src="https://unpkg.com/aframe-animation-component@^5.1.2/dist/aframe-animation-component.min.js"></script>
+
+ </head>
+
+ <body>
+
+   <a-scene>
+
+
+
+   <a-entity position="-162.3 3.5 226" camera wasd-controls look-controls>
+           <a-sound src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fbgm.mp3?1554413449103" position="0 0 0" autoplay="true" loop="true" volume="1.5"> </a-sound>
+   </a-entity>
+
+
+
+   <a-entity id="billboard" position= "-149.4 13.948 217.64" >
+     <a-plane position="0 0 0" rotation="0 -52 0" scale="5 2 1" color="#ffffff" ></a-plane>
+   <a-text value="WELCOME TO YUAN DYNASTY" position="-1.45 0 -1.7" rotation="0 -52 0" width="7" height = "7" color="black"> </a-text>
+   </a-entity>
+
+     <a-assets>
+     <img id = "directory.png" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fdirectory.png?1554504146404">
+     </a-assets>
+     <a-box position="-145.2 5.3 223.3" scale="6 4.5 0.15" rotation="0 -50 0 " src="#directory.png"></a-box>
+
+
+     <a-entity id="others" position = "0 0 0" >
+           <a-gltf-model position="-64 0 82" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fcity.glb?1554265332948" scale = "0.08 0.12 0.08" ></a-gltf-model>
+           <a-gltf-model position="-122 0.7 192" rotation="0 245 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fpedestrian1?1554266512781" scale = "0.02 0.024 0.02"></a-gltf-model>
+           <a-gltf-model position="-67.83 0 412" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fkitchen.glb?1554421163665" scale = "5 5 5"></a-gltf-model>
+           <a-gltf-model position="-130 0 71" rotation="0 64 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fhorses?1554418430428" scale = "0.03 0.03 0.03" animation-mixer></a-gltf-model>
+     </a-entity>
+
+       <a-entity id="porcelain" position = "-64 0 89" >
+           <a-gltf-model position="0 -0.05 0" rotation="0 90 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fhouse3?1554396252933" scale = "0.025 0.025 0.025"></a-gltf-model>
+           <a-box position="0 0.5 0" color="black" rotation="0 0 0" scale = "1.5 0.5 1.5"> </a-box>
+           <a-gltf-model position="0 1.8 0" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fporcelain1?1554268290553" scale = "0.01 0.01 0.01"
+                   animation_hover="property: position; dur: 2000; loop: true; dir:alternate; to: -5.1 1.5 -4.5;"
+                   animation__spin="property: rotation; dur: 12000; loop: true; to: 0 1490 0;"
+                   animation__color="property: color; type: color; dur:1000; loop: true; dir: alternate; to: #faaf52" ></a-gltf-model>
+           <a-plane position="5.3 5.5 -0.08" rotation="0 90 0" scale="2.75 1 1" color="#faaf52" ></a-plane>
+           <a-text value="Porcelain Muesum" position="5.5 5.5 1。074" rotation="0 90 0" width="6" height = "6" color="black" ></a-text>
+       </a-entity>
+
+     <a-entity id="tea" position = "-117 0 35" >
+           <a-gltf-model position="0 0 0" rotation="0 90 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fpavilion.dms?1554399905516" scale = " 0.015 0.015 0.015"></a-gltf-model>
+           <a-gltf-model position="-0.961 2.8. 0.102" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fteaset?1554358705039" scale = "0.05 0.05 0.05"></a-gltf-model>
+           <a-gltf-model position="2.56 1.053 2.56" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Ftea_plant?1554358715540" scale = "0.2 0.2 0.2"></a-gltf-model>
+           <a-gltf-model position="-3.656 1.053 -2.6" rotation="0 180 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Ftea_plant?1554358715540" scale = "0.2 0.2 0.2"></a-gltf-model>
+           <a-plane position="3.232 5.655 0" rotation="0 90 0" scale="2 0.8 1" color="#faaf52" ></a-plane>
+           <a-text value="Tea Pavilion" position="3.276 5.649 0.709" rotation="0 90 0" width="6" height = "6" color="black" ></a-text>
+     </a-entity>
+
+     <a-entity id="vendor" position = "2.69 0 114" rotation = "0 210 0">
+
+           <a-gltf-model position= "-2.3 2.4 -2.8" rotation="0 0 90" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fcoin1?1554358697899" scale = "0.03 0.03 0.03"
+                   animation_hover="property: position; dur: 2000; loop: true; dir:alternate; to: -5.1 1.5 -4.5;"
+                   animation__spin="property: rotation; dur: 12000; loop: true; to: 0 1490 0;"
+                   animation__color="property: color; type: color; dur:1000; loop: true; dir: alternate; to: #faaf52"></a-gltf-model>
+           <a-gltf-model position="0 3.5 0" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fvendor?1554267815191" scale = "3.5 3.5 3.5"></a-gltf-model>
+           <a-gltf-model position="-7.3 0.7 8.1" rotation="0 270 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fpedestrian2%20(1)?1554268278650" scale = "0.02 0.024 0.02"></a-gltf-model>
+           <a-gltf-model position="0 0.7 -3" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fpedestrian3?1554268280366" scale = "0.015 0.02 0.015"></a-gltf-model>
+           <a-gltf-model position="0.28 2.655 -0.541" rotation="15.236 -174.3 0.173" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fshoes.glb?1554507618216" scale = "1 1 1"></a-gltf-model>
+           <a-plane position="-1.885 3.154 -1.311" rotation="0 180 90" scale="2 0.8 1" color="#faaf52" ></a-plane>
+           <a-text value="Vendor" position="-1.856 3.666 -1.435" rotation="0 180 270" width="6" height = "6" color="black" ></a-text>
+
+     </a-entity>
+
+     <a-entity id="tree collection" position = "0 0 0" rotation = "0 0 0">
+           <a-gltf-model position="13 0 81" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Ftree2.glb?1554406000218" scale = "2 1.5 2.5"></a-gltf-model>
+           <a-gltf-model position="-140 0 87" rotation="0 180 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Ftree2.glb?1554406000218" scale = "2 1.5 2.5"></a-gltf-model>
+           <a-gltf-model position="-110 0 173" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Ftree2.glb?1554406000218" scale = "2 1.5 2"></a-gltf-model>
+           <a-gltf-model position="-91 0 1.8" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Ftree2.glb?1554406000218" scale = "2 1.5 2.5"></a-gltf-model>
+           <a-gltf-model position="-126 0 30" rotation="0 0 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Ftree2.glb?1554406000218" scale = "2 1.5 2.5"></a-gltf-model>
+     </a-entity>
+
+     <a-entity id="rider" position = "0 0 0" rotation = "0 0 0">
+         <a-gltf-model position="-21.4 0.7 23.379" rotation="0 180 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fpedestrian1?1554266512781" scale = "0.02 0.03 0.02"></a-gltf-model>
+         <a-gltf-model position="-25 0 21" rotation="0 300 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fhorse?1554418429967" scale = "0.02 0.02 0.02" animation-mixer></a-gltf-model>
+       </a-entity>
+
+       <a-assets>
+              <img id="socratesinvr" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fpainting.jpeg?1554358258945">
+       </a-assets>
+     <a-entity id="painting" position = "-97 1 -26" rotation = "0 -10 0">
+            <a-gltf-model position="0 0 0" rotation="0 210 0" src="https://cdn.glitch.com/953de225-92e3-4719-973d-e046db685422%2Fhouse2?1554396250076" scale = "0.015 0.015 0.015"></a-gltf-model>
+            <a-box position="0 2 0" width="4" height="4" rotation="0 0 0" src="#socratesinvr"></a-box>
+     </a-entity>
+
+
+   </a-scene>
+
+ </body>
+
+</html>
